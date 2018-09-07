@@ -10,24 +10,35 @@ movies = { :rushhour => '1998', :thedarkknight => '2008', :guardians => '2014'}
 cities = { :tokyo => '9000000', :osaka => '2000000', :yokohama => '3000000' }
 humans = { :mike => '26', :pujol => '24', :cj => '26'}
 
-puts coin_flip
+# puts coin_flip
+#
+# puts colors.first
+#
+# puts friends.sort
+#
+# friends << '0'
+#
+# puts movies[:rushhour]
+#
+# puts colors.last
+#
+# cities[:kyoto] = '1500000'
+#
+# coin_flip.reverse
+#
+# puts cities[:kyoto]
+#
+# artists.each do |dj|
+#   puts "I love #{dj}!"
+# end
 
-puts colors.first
+puts artists[0..1]
 
-puts friends.sort
-
-friends << '0'
-
-puts movies[:rushhour]
-
-puts colors.last
-
-cities = { :kyoto => '1500000'}
-
-coin_flip.reverse
-
-puts cities[:kyoto]
-
-artists.each do |dj|
-  puts "I love #{dj}!"
+movies.each do |title, duration|
+  puts "#{title} came out in #{duration}!"
 end
+
+puts friends.sort.reverse
+
+dates = ['1991', '2017']
+movies[:beautyandthebeast] = 'dates'
