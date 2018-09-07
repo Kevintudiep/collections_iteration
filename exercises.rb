@@ -12,10 +12,22 @@ humans = { :mike => '26', :pujol => '24', :cj => '26'}
 
 puts coin_flip
 
-puts colors[0]
+puts colors.first
 
 puts friends.sort
 
 friends << '0'
 
 puts movies[:rushhour]
+
+puts colors.last
+
+cities = { :kyoto => '1500000'}
+
+coin_flip.reverse
+
+puts cities[:kyoto]
+
+artists.each do |dj|
+  puts "I love #{dj}!"
+end
